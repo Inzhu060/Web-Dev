@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: #111;
+  position: relative;
+}
+
+body::after{
+  content: "";
+  position: absolute;
+  top: 67px;
+  bottom: 79px;        
+  left: calc(40% + 210px);
+  width: 1px;
+  background: #e8e8e8;
+}
+
+.page {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+.layout {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  gap: 61px;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: relative;
+}
+
+.left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  margin-bottom: 18px;
+  border: 2px solid #e8e8e8;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 1.25;
+  margin: 0 0 28px;
+  font-family: Georgia, "Times New Roman", serif;
+  text-align: center;
+}
+
+.paint {
+  color: #ff5a00;
+}
+
+.paint2 {
+  color: #d100b8;
+}
+
+.mockup {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.mockup-box {
+  width: 320px;
+  height: 260px;
+  border-radius: 14px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mockup-text {
+  color: #777;
+  margin: 0;
+}
+
+.right {
+  width: 420px;
+}
+
+.block {
+  padding: 24px;
+  background: #fff;
+}
+
+.block-title {
+  font-size: 14px;
+  margin-bottom: 14px;
+  color: #444;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 12px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+
+.input:focus {
+  border-color: #c8c8c8;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.login {
+  background: #b9cdf8;
+  color: #fff;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.or {
+  margin: 16px 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #7a7a7a;
+  font-size: 12px;
+}
+
+.or span {
+  white-space: nowrap;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background: #e8e8e8;
+}
+
+.social {
+  background: #fff;
+  border: 1px solid #e3e3e3;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: bold;
+}
+
+.fb-dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #1877f2;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.outline {
+  background: #fff;
+  border: 1px solid #b7d0ff;
+  color: #3b65ff;
+}
+
+.meta {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 12px;
+  color: #3b65ff;
+}
+
+.meta1 {
+  color: black;
+  font-weight: bold;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  padding: 14px 0 18px;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #8a8d91;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-copy {
+  margin-top: 10px;
+  text-align: center;
+  color: #8a8d91;
+  font-size: 11px;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .right {
+    width: 100%;
+    max-width: 420px;
+  }
+  .mockup-box {
+    width: 280px;
+  }
+  .title {
+    font-size: 32px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+

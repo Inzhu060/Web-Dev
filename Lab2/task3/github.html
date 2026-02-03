@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Pricing (Layout)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="#" aria-label="GitHub Home">
+          <span class="brand-mark" aria-hidden="true">⌂</span>
+          <span class="brand-text">GitHub</span>
+        </a>
+
+        <nav class="top-nav" aria-label="Primary navigation">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="#">Platform</a></li>
+            <li><a class="nav-link" href="#">Solutions</a></li>
+            <li><a class="nav-link" href="#">Resources</a></li>
+            <li><a class="nav-link" href="#">Open Source</a></li>
+            <li><a class="nav-link" href="#">Enterprise</a></li>
+            <li><a class="nav-link" href="#">Pricing</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <form class="search" action="#" method="get">
+            <label class="visually-hidden" for="q">Search</label>
+            <input id="q" name="q" type="search" placeholder="Search or jump to..." />
+          </form>
+
+          <a class="header-link" href="#">Sign in</a>
+          <a class="header-btn" href="#">Sign up</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="wrap hero-inner">
+          <h1 id="hero-title">Try the Copilot-powered platform</h1>
+          <p class="hero-text">
+            We get it, alot you can do with GitHub. That's why we've packed all of it into a single risl-free trial that includes GitHub Enterprise,<br>Copilot, and advanced Security.
+          </p>
+          <a class="cta" href="#">Start free for 30 days</a>
+        </div>
+      </section>
+
+      <section class="pricing" aria-labelledby="pricing-title">
+        <div class="wrap">
+          <h2 id="pricing-title" class="visually-hidden">Pricing tiers</h2>
+
+          <div class="pricing-grid">
+            <article class="card">
+              <header class="card-head">
+                <h3 class="plan">Free</h3>
+                <p class="plan-sub">The basics for individuals<br> and organizationis</p>
+                <div class="price-row">
+                  <span class="currency">$</span>
+                  <span class="price">0</span>
+                  <span class="unit">USD</span>
+                  <span class="per">per user/month</span>
+                </div>
+                <button class="btn btn-ghost" type="button">Join for free</button>
+              </header>
+
+              <ul class="features">
+                <li>Unlimited public/private repositories</li>
+                <li>Dependabot security and version updates</li>
+                <li><strong>2,000</strong> CI/CD minutes/month</li>
+                    <ul class="sub">
+                      <li>Free for public repositories</li>
+                    </ul>
+                <li><strong>500MB</strong> Packages storage</li>
+                   <ul class="sub">
+                      <li>Free for public repositories</li>
+                   </ul>
+                <li>Issues &amp; Projects</li>
+                <li>Community support</li>
+              </ul>
+
+              <p class="addons-title">FEATURED ADD-ONS</p>
+              <ul class="addons">
+                <li>GitHub Copilot Access</li>
+                <li>GitHub Codespaces Access</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <header class="card-head">
+                <h3 class="plan">Team</h3>
+                <p class="plan-sub">Advanced collaboration for<br> individuals and organizations</p>
+                <div class="price-row">
+                  <span class="currency">$</span>
+                  <span class="price">4</span>
+                  <span class="unit">USD</span>
+                  <span class="per">per user/month</span>
+                </div>
+                <button class="btn btn-dark" type="button">Continue with Team</button>
+              </header>
+
+              <ul class="features">
+                <li><em>Everything included in Free, plus…</em></li>
+                <li>Access to GitHub Codespaces</li>
+                <li>Repository rules</li>
+                <li>Multiple reviewers in pull requests</li>
+                <li>Draft pull requests</li>
+                <li>Code owners</li>
+                <li>Required reviewers</li>
+                <li>Pages and Wikis</li>
+                <li>Environment deployment branches and secrets</li>
+                <li><strong>3,000</strong> CI/CD minutes/month</li>
+                    <ul class="sub">
+                      <li>Free for public repositories</li>
+                    </ul>
+                <li><strong>2GB</strong> Packages storage</li>
+                    <ul class="sub">
+                      <li>Free for public repositories</li>
+                    </ul>
+                <li>Web-based support</li>
+              </ul>
+            </article>
+
+            <article class="card card-recommended" aria-label="Enterprise plan (recommended)">
+              <div class="badge">RECOMMENDED</div>
+
+              <header class="card-head">
+                <h3 class="plan">Enterprise</h3>
+                <p class="plan-sub">Security, compliance,<br> and flexible deployment</p>
+
+                <div class="pill">Starting at</div>
+
+                <div class="price-row">
+                  <span class="currency">$</span>
+                  <span class="price">21</span>
+                  <span class="unit">USD</span>
+                  <span class="per">per user/month</span>
+                </div>
+
+                <div class="btn-row">
+                  <button class="btn btn-dark" type="button">Start a free trial</button>
+                  <button class="btn btn-ghost" type="button">Contact Sales</button>
+                </div>
+              </header>
+
+              <ul class="features">
+                <li><em>Everything included in Team, plus…</em></li>
+                <li>Data residency</li>
+                <li>Enterprise Managed Users</li>
+                <li>User provisioning through SCIM</li>
+                <li>enterprise Account to centrally manage multiple organizations</li>
+                <li>Environment protection rules</li>
+                <li>Repository rules</li>
+                <li>Audit Log API</li>
+                <li>SOC1, SOC2, type 2 reports annually</li>
+                <li>FedRAMP Tailored Authority to Operate (ATO)</li>
+                <li>SAML single sign-on</li>
+                <li>Advanced auditing</li>
+                <li>GitHub Connect</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="addons-section" aria-labelledby="addons-title">
+        <div class="wrap">
+          <h2 id="addons-title" class="addons-h2">Additional add-ons</h2>
+          <p class="addons-desc">
+            Practice grid layout: 6 add-on cards in a neat grid.
+          </p>
+
+          <div class="addons-grid">
+            <article class="addon-card">
+              <h3 class="addon-name">Copilot</h3>
+              <p class="addon-text">AI coding assistance for editors and PRs.</p>
+            </article>
+
+            <article class="addon-card">
+              <h3 class="addon-name">Codespaces</h3>
+              <p class="addon-text">Cloud dev environments, ready in seconds.</p>
+            </article>
+
+            <article class="addon-card">
+              <h3 class="addon-name">Advanced Security</h3>
+              <p class="addon-text">Code scanning and secret scanning tools.</p>
+            </article>
+
+            <article class="addon-card">
+              <h3 class="addon-name">Premium Support</h3>
+              <p class="addon-text">Faster response and onboarding help.</p>
+            </article>
+
+            <article class="addon-card">
+              <h3 class="addon-name">Actions Minutes</h3>
+              <p class="addon-text">Extra CI/CD minutes for workflows.</p>
+            </article>
+
+            <article class="addon-card">
+              <h3 class="addon-name">Packages Storage</h3>
+              <p class="addon-text">Extra storage for packages and artifacts.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

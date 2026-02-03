@@ -1,0 +1,169 @@
+body {
+  background-color: #eeedf1;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+}
+
+h1 {
+  color: blue;
+  font-size: 48px;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  font: bold 16px Arial, sans-serif;
+  margin-top: 10px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0;
+}
+
+.container {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.main {
+  max-width: 320px;
+}
+
+.block {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+}
+
+.enter {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.account {
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 8px;
+  border: none;
+  width: 100%;
+  font-size: 14px;
+}
+
+.parol,
+.email {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 92%;
+}
+
+.link {
+  font-size: 12px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  color: blue;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.page {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+
+.footer {
+  background: #fff;
+  padding: 8px 0 10px;
+  font-size: 10px;
+  color: #8a8d91;
+  margin-top: 60px;
+}
+
+.footer-inner {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 16px;
+  text-align: left;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 10px;
+  line-height: 1.4;
+}
+
+.footer-link {
+  color: #8a8d91;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.footer-plus {
+  border: 1px solid #ccd0d5;
+  padding: 0 8px;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer-line {
+  border: none;
+  border-top: 1px solid #e4e6eb;
+  margin: 6px 0;
+  width: 100%;
+}
+
+.footer-copy {
+  margin-top: 8px;
+  text-align: left;
+  font-size: 9px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.login-form {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
