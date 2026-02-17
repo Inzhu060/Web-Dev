@@ -5,5 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
-export class App {}
+export class App {
+  city = 'San Francisco';
+}
 
