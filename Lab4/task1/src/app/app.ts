@@ -1,11 +1,16 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  selector: 'app-user',
+  template: ` Username: {{ username }} `,
 })
-export class App {
-  city = 'San Francisco';
+export class User {
+  username = 'youngTech';
 }
 
+@Component({
+  selector: 'app-root',
+  template: `<app-user />`,
+  imports: [User],
+})
+export class App {}
