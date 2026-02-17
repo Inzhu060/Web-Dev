@@ -1,6 +1,5 @@
 import { Product } from '../models/product.model';
 
-// Временные картинки. Потом заменишь на реальные (как — ниже).
 function ph(title: string, n: number) {
   return `https://via.placeholder.com/700x450?text=${encodeURIComponent(title + ' ' + n)}`;
 }
